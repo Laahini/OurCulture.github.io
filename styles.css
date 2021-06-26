@@ -1,0 +1,649 @@
+body,
+html {
+  font-size: 0.95rem;
+  background: #fcfafb;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+.grid6{
+  display:grid;
+  grid-template-columns: 25% auto;
+  padding:0.5%;
+  padding-bottom:0%;
+  margin-bottom:0%;
+}
+.grid{
+  display:grid;
+  grid-template-columns: auto 35% auto;
+  padding:1%;
+  padding-bottom:0%;
+  margin-bottom:0%;
+}
+/*BANNER*/
+#banner{
+  background-color: #bcf46e;
+}
+#banner button{
+  padding:1%;
+  width:20%;
+  background-color: #ffc2cb;
+  font-size: 15px;
+  color:white;
+  letter-spacing: 2.5px;
+}
+#banner button:hover{
+  background-color: #ffabb8;
+}
+#banner h3{
+  font-family: sans-serif;
+  color:#242424;
+}
+#banner .grid-item{
+  padding-left: 3%;
+  margin-right:0%;
+  margin-top:2%;
+}
+/*LANDING*/
+#landing{
+  margin-top:0px;
+  height: 50vh;
+  min-height: 600px;
+  background-color: #ffffe7;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:center;
+  font-family: sans-serif;
+  color:#242424;
+}
+#landing h2{
+  font-size:65px;
+}
+#landing h4{
+  font-size:15px;
+}
+#landing h5{
+  font-size:25px;
+  padding-left:10%;
+  padding-right:10%;
+}
+.grid2{
+  display:grid;
+  grid-template-columns: 60% 40%;
+  padding:1%;
+  padding-bottom:0%;
+  margin-bottom:0%;
+}
+
+
+#Play{
+  margin-top:-2.5%;
+  height: 25vh;
+  min-height: 250px;
+  background-color: white;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:center;
+  font-family: sans-serif;
+  padding-bottom: 0%;
+  color:#dfb373;
+}
+#Play h3{
+  font-size:35px;
+  padding-top:3%;
+  letter-spacing: 6px;
+}
+#Play h4{
+  font-size:20px;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+}
+#Play button{
+  padding:1%;
+  width:40%;
+  background-color: #dfb373;
+  font-size: 18px;
+  color:white;
+  letter-spacing: 2.5px;
+  font-weight: bolder;
+}
+#Play button:hover{
+  background-color: #bd9760;
+}
+
+#MyCulture{
+  margin-top:-3.25%;
+  height: 25vh;
+  min-height: 300px;
+  background-color: #65dcb0;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:center;
+  font-family: sans-serif;
+  padding-bottom: 0%;
+  color:white;
+}
+#MyCulture h3{
+  font-size:35px;
+  padding-top:3%;
+  letter-spacing: 2px;
+}
+#MyCulture h5{
+  font-size:20px;
+  padding-left:8%;
+  padding-right:8%;
+}
+#MyCulture button{
+  padding:1%;
+  width:40%;
+  background-color: white;
+  font-size: 18px;
+  color:#65bdc0;
+  border:none;
+  letter-spacing: 2.5px;
+  font-weight: bolder;
+}
+#MyCulture button:hover{
+  background-color: #edfffb;
+}
+.grid3{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  padding:2%;
+  padding-top:0%;
+  padding-bottom:0%;
+  margin-bottom:0%;
+  text-align: left;
+}
+/*ABOUT PAGE*/
+/*ABOUT*/
+#about{
+  height: 50vh;
+  min-height: 350px;
+  background-color: white;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:center;
+  font-family: sans-serif;
+  padding-bottom: 0%;
+  color:#691800;
+}
+#about h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:5%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#about h5{
+  font-size:20px;
+  padding-left:5%;
+  padding-right:5%;
+  margin-bottom:0;
+}
+/*MISSION*/
+#mission{
+  height: 50vh;
+  min-height: 350px;
+  background-color: #dfb373;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:center;
+  font-family: sans-serif;
+  padding-bottom: 2%;
+  color:white;
+}
+#mission h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:5%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#mission h5{
+  font-size:20px;
+  padding-left:5%;
+  padding-right:5%;
+  margin-bottom:0;
+}
+/*MYCULTURE*/
+#myculture-header{
+  height: 50vh;
+  min-height: 350px;
+  background-color: #f4f4f4;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:center;
+  font-family: sans-serif;
+  padding-bottom: 2%;
+  color:#691800;
+}
+#myculture-header h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:5%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#myculture-header h5{
+  font-size:20px;
+  padding-left:5%;
+  padding-right:5%;
+  margin-bottom:0;
+}
+/*CHAT*/
+#chat{
+  height: 50vh;
+  min-height: 350px;
+  background-color: #f5dbc8;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:center;
+  font-family: sans-serif;
+  padding-bottom: 2%;
+  color:#242424;
+}
+#chat h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:5%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#chat h5{
+  font-size:20px;
+  padding-left:5%;
+  padding-right:5%;
+  margin-bottom:0;
+}
+#share{
+  background-color: #f4f4f4;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:center;
+  font-family: sans-serif;
+  padding-bottom: 2%;
+  color:#691800;
+}
+#share h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:5%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#share h5{
+  font-size:20px;
+  padding-left:5%;
+  padding-right:5%;
+  margin-bottom:0;
+}
+/*JOURNELY*/
+#Journely2{
+  height: 50vh;
+  min-height: 425px;
+  background-color: #65dbc0;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:center;
+  font-family: sans-serif;
+  padding-bottom: 2%;
+  color:white;
+}
+#Journely2 h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:5%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#Journely2 h5{
+  font-size:16px;
+  padding-left:5%;
+  padding-right:5%;
+  margin-bottom:3%;
+  line-height: 21px;
+}
+#Journely2 button{
+  padding: 1% 5%;
+  width:40%;
+  background-color: white;
+  font-size: 15px;
+  color:#65dbc0;
+  word-spacing: 1.5px;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  margin-left:5%;
+  border:none;
+}
+#Journely2 button:hover{
+  background-color: #edfffb;
+}
+/*YOGA AND MEDITATION*/
+#yoga-intro{
+  height: 50vh;
+  min-height: 625px;
+  background-color: #fffff7;
+  padding-left:5%;
+  padding-right:5%;
+  font-family: sans-serif;
+  padding-bottom: 2%;
+  color:#ffb27c;
+}
+#yoga-intro h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:5%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#yoga-intro h5{
+  font-size:16px;
+  padding-left:5%;
+  padding-right:5%;
+  margin-bottom:3%;
+  line-height: 21px;
+}
+#yoga-intro button{
+  padding: 1% 5%;
+  width:40%;
+  background-color: #ffb27c;
+  font-size: 15px;
+  color:white;
+  word-spacing: 1.5px;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  margin-left:5%;
+  border:none;
+}
+#yoga-intro button:hover{
+  background-color: #fca66a;
+}
+/*DRAWING*/
+#drawing{
+  height: 50vh;
+  min-height: 525px;
+  background-color: #fffff7;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:left;
+  font-family: sans-serif;
+  padding-bottom: 2%;
+  color:#65dbc0;
+}
+#drawing h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:0%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#drawing h5{
+  font-size:16px;
+  padding-left:0%;
+  padding-right:5%;
+  margin-bottom:3%;
+  line-height: 24px;
+}
+/*MEDITATION MUSIC*/
+#music{
+  height: 50vh;
+  min-height: 375px;
+  background-color: #ffabb8;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:left;
+  font-family: sans-serif;
+  padding-bottom: 2%;
+  color:#fffff7;
+}
+#music h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:0%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#music h5{
+  font-size:16px;
+  padding-left:0%;
+  padding-right:5%;
+  margin-bottom:3%;
+  line-height: 24px;
+}
+/*Resources*/
+#resources{
+  height: 50vh;
+  min-height: 400px;
+  background-color: #ffc499;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:left;
+  font-family: sans-serif;
+  padding-bottom: 2%;
+  color:#fffff7;
+  margin-top:-2.5%;
+}
+#resources-header{
+  margin-bottom: -2%;
+}
+#resources h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:0%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#resources h5, p{
+  color:black;
+}
+/*TRACX*/
+#tracx-header{
+  background-color: #fffff7;
+  margin-top:-1%;
+  padding:1%;
+  padding-top:1.5%;
+  margin-bottom:-2%;
+}
+#tracx-header h3{
+  font-size:35px;
+  padding:3%;
+  padding-bottom: 0;
+  letter-spacing: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+  padding-top: 1.5%;
+  width:34%;
+  text-align: center;
+  font-family: sans-serif;
+}
+#meal-tracx{
+  text-align:left;
+  font-family: sans-serif;
+}
+#tracx-intro{
+  height: 50vh;
+  min-height: 500px;
+  background-color: #fffff7;
+  padding-left:5%;
+  padding-right:5%;
+  font-family: sans-serif;
+  padding-bottom: 2%;
+  color:#ffb27c;
+}
+#tracx-intro h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:5%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#tracx-intro h5{
+  font-size:16px;
+  padding-left:5%;
+  padding-right:5%;
+  margin-bottom:3%;
+  line-height: 21px;
+}
+#tracx-intro h6{
+  padding-left:5%;
+  padding-right:5%;
+  margin-bottom:3%;
+  line-height: 21px;
+}
+#tracx-intro button{
+  padding: 1% 5%;
+  width:40%;
+  background-color: #ffb27c;
+  font-size: 15px;
+  color:white;
+  word-spacing: 1.5px;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  margin-left:5%;
+  border:none;
+}
+#tracx-intro button:hover{
+  background-color: #fca66a;
+}
+#tracx-landing{
+  background-color: #65dbc0;
+  font-family: sans-serif;
+  color:white;
+  height:300px;
+  text-align: center;
+  margin-top: -5%;
+}
+#tracx-landing h1{
+  font-size: 100px;
+  padding-top:10%;
+}
+/*UPCOMING*/
+#shop{
+  height: 50vh;
+  min-height: 425px;
+  background-color: white;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:center;
+  font-family: sans-serif;
+  padding-bottom: 0%;
+  color:#ffb27c;
+}
+#shop h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:5%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#shop h5{
+  font-size:20px;
+  padding-left:5%;
+  padding-right:5%;
+  margin-bottom:0;
+}
+#tracx{
+  height: 50vh;
+  min-height: 500px;
+  background-color: #ffb27c;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:center;
+  font-family: sans-serif;
+  padding-bottom: 2%;
+  color:white;
+}
+#tracx h3{
+  font-size:35px;
+  padding-top:3%;
+  padding-left:5%;
+  padding-right:5%;
+  letter-spacing: 2px;
+}
+#tracx h5{
+  font-size:20px;
+  padding-left:5%;
+  padding-right:5%;
+  margin-bottom:0;
+}
+#landing2{
+  margin-top:0px;
+  height: 50vh;
+  min-height: 500px;
+  background-color: #bcf46e;
+  padding-left:5%;
+  padding-right:5%;
+  text-align:center;
+  font-family: sans-serif;
+  color:#242424;
+}
+#landing2 h1{
+  font-size:150px;
+}
+.concept {
+  position: relative;
+  padding: 1em;
+  overflow: hidden;
+}
+.concept:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.concept:hover:before {
+  opacity: 0.5;
+}
+.concept-seven {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.concept-seven h1 {
+  letter-spacing: 35px;
+  position: relative;
+}
+.concept-seven h1:before {
+  content: "UPCOMING";
+  position: absolute;
+  margin-left:5%;
+  max-width: 250px;
+  color: transparent;
+  letter-spacing: 10px;
+  text-shadow: none;
+  font-size: 100px;
+}
+.concept-seven:hover h1:before {
+  transition: 0.6s ease;
+  color: rgba(0, 0, 0, 0.8);
+  animation: jump-out 0.6s ease forwards;
+}
+
+@keyframes jump-out {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2);
+  }
+}

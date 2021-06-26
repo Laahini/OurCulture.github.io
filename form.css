@@ -1,0 +1,56 @@
+#mycultureform{
+  padding:5%;
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+  height:650px;
+}
+#form{
+  width:100%;
+  background-color: #dfb373;
+  padding:5%;
+}
+#form td{
+  padding:5px;
+}
+#form input{
+  width:80%;
+  height:25px;
+  border:none;
+  padding:5px;
+  background-color:#f4f4f4;
+  color:#691800;
+  font-size: 13px;
+}
+#form label{
+  font-family: sans-serif;
+  font-size: 18px;
+  padding-left:25%;
+  letter-spacing: 3px;
+  color:#691800;
+}
+#description1 textarea, #description2 textarea, #comments textarea{
+  height:50px;
+  width:81%;
+  border:none;
+  color:#691800;
+  background:#f4f4f4;
+}
+.submit{
+  padding:10px 25%;
+  border-color:#691800;
+  background-color: #f5dcb8;
+  font-size:20px;
+  margin-left:20%;
+  margin-top:2%;
+  color:#691800;
+}
+.submit:hover{
+  padding:10px 25%;
+  border-color:#691800;
+  background-color: #dfb373;
+  font-size:20px;
+  margin-left:20%;
+  color:#f4f4f4;
+  margin-top:2%;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>OurCulture</title>
+  <link rel="stylesheet" href="navigation.css"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="footer.css"/>
+  <link rel="icon" href="favicon.ico">
+  <script src="nav-script.js"></script>
+  <script src="sign.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d8d58f48fa.js" crossorigin="anonymous"></script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+</head>
+
+<body>
+  <div class='navbar-wrapper'>
+      <div class='navbar left'>
+        <a class='navbar-logo' href='#signup'></a>
+      </div>
+      <div class='navbar right' id='navbar-right-web'>
+        <a class='nav-item' href="home.html"> Home </a>
+        <a class='nav-item' href="about.html"> About </a>
+        <a class='nav-item' href="stigma.html"> Stigma </a>
+        <a class='nav-item' href="culture.html"> MyCulture </a>
+        <a class='nav-item' href="talk.html"> Talk </a>
+        <a class='nav-item special' href="play.html"> Play </a>
+      </div>
+      <i id="navbar-open-menu" class="fas fa-bars fa-lg" onclick="NavOpen(event)"></i>
+      <div class='navbar right' id='navbar-right-mobile'>
+        <div id='close-navbar' class='nav-item' onclick="NavClose(event)">
+          <i id="close-button" class="fas fa-times fa-sm"></i>
+        </div>
+        <a class='nav-item' href="home.html"> Home </a>
+        <a class='nav-item' href="about.html"> About </a>
+        <a class='nav-item' href="stigma.html"> Stigma </a>
+        <a class='nav-item' href="culture.html"> MyCulture </a>
+        <a class='nav-item' href="talk.html"> Talk </a>
+        <a class='nav-item special' href="play.html"> Play </a>
+      </div>
+  </div>
+  <br></br><br></br>
+  <div id="about">
+    <div class="grid3">
+      <div clsss="grid-item">
+        <img src="media/laahini.png" style="width:50%; height:315px; padding:5px; padding-top:25px; padding-left:100px;">
+      </div>
+      <div class="grid-item">
+        <h3>About OurCulture</h3>
+        <h5>OurCulture was created by Laahini A as a hackathon project and initiative in 2021.
+          Within the past few years, there has been an increase in discrimination and violence against peoples of different
+          religions, cultures, races and peoples. This includes the AAPI movement and BLM movement which had picked up
+          in order to combat racism against Asians and African Anericans. OurCulture supports such movements and spreads it
+          via cultural education.
+        </h5>
+      </div>
+    </div>
+  </div>
+  <div id="mission">
+    <div class="grid3">
+      <div>
+        <h3>Our Mission</h3>
+        <h5>Our mission is to educate others about different cultures across the globe to prevent discrimination.
+          We also aim to create a community of individuals that support each other and are there for each other as support.
+        We hope that through our educational games, people of all ages will learn more about cultures and how to appreciate them.
+        Many who say harmful words about a group of peoples often do not know a lot about their culture/race/etc.
+        That's why we focus on educating people to repress any discrimination.</h5>
+      </div>
+      <div>
+        <img src="media/mission.png" style="width:75%; padding-left:10%; padding-top:3%;">
+      </div>
+    </div>
+  </div>
+
+</body>
+<footer>
+  <p>OurCulture © 2021</p>
+</footer>
+</html>
