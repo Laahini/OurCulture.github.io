@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>OurCulture</title>
+  <link rel="stylesheet" href="navigation.css"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="footer.css"/>
+  <link rel="stylesheet" href="cards.css"/>
+  <link rel="icon" href="favicon.ico">
+  <script src="nav-script.js"></script>
+  <script src="sign.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d8d58f48fa.js" crossorigin="anonymous"></script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+</head>
+
+<body>
+  <div class='navbar-wrapper'>
+      <div class='navbar left'>
+        <a class='navbar-logo' href='#signup'></a>
+      </div>
+      <div class='navbar right' id='navbar-right-web'>
+        <a class='nav-item' href="home.html"> Home </a>
+        <a class='nav-item' href="about.html"> About </a>
+        <a class='nav-item' href="stigma.html"> Stigma </a>
+        <a class='nav-item' href="culture.html"> MyCulture </a>
+        <a class='nav-item' href="talk.html"> Talk </a>
+        <a class='nav-item special' href="play.html"> Play </a>
+      </div>
+      <i id="navbar-open-menu" class="fas fa-bars fa-lg" onclick="NavOpen(event)"></i>
+      <div class='navbar right' id='navbar-right-mobile'>
+        <div id='close-navbar' class='nav-item' onclick="NavClose(event)">
+          <i id="close-button" class="fas fa-times fa-sm"></i>
+        </div>
+        <a class='nav-item' href="home.html"> Home </a>
+        <a class='nav-item' href="about.html"> About </a>
+        <a class='nav-item' href="stigma.html"> Stigma </a>
+        <a class='nav-item' href="culture.html"> MyCulture </a>
+        <a class='nav-item' href="talk.html"> Talk </a>
+        <a class='nav-item special' href="play.html"> Play </a>
+      </div>
+  </div>
+  <br></br><br></br>
+
+  <div id="games">
+    <div id="intro">
+      <h3>👉🏼 PICK A JOURNEY 👈🏼</h3>
+    </div>
+    <div class="grid4">
+
+      <div id="card">
+        <div class="card">
+          <a href="justine/justine1.html"><div class="card-img a"></div></a>
+          <div class="card-descript">
+            <h5> Justine's Story </h5>
+            <p>Learn about the Bayanihan spirit during Typhoon Ulysses from the Philippines</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="card">
+        <div class="card">
+          <a href="laahini/laahini1.html"><div class="card-img b"></div></a>
+          <div class="card-descript">
+            <h5>Laahini's Story</h5>
+            <p>Learn about the tradition of Raksha Bandhan from India</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="card">
+        <div class="card">
+          <a href="juan/juan1.html"><div class="card-img c"></div></a>
+          <div class="card-descript">
+            <h5> Juan's Story </h5>
+            <p>Learn about Dia de los Muertos from Mexico</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="card">
+        <div class="card">
+          <a href="glenn/glenn1.html"><div class="card-img d"></div></a>
+          <div class="card-descript">
+            <h5> Glenn's story </h5>
+            <p>Learn about the Blackening of the Bride tradition from Scotland</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+</body>
+<footer>
+  <p>OurCulture © 2021</p>
+</footer>
+</html>

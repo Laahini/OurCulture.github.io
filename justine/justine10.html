@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>OurCulture</title>
+  <link rel="stylesheet" href="../navigation.css"/>
+  <link rel="stylesheet" href="../styles.css"/>
+  <link rel="stylesheet" href="../footer.css"/>
+  <link rel="icon" href="../favicon.ico">
+  <link rel="stylesheet" href="../play.css"/>
+  <link rel="stylesheet" href="justine.css"/>
+  <script src="../nav-script.js"></script>
+  <script src="justine.js"></script>
+  <script src="../sign.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d8d58f48fa.js" crossorigin="anonymous"></script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+</head>
+
+<body>
+  <div class='navbar-wrapper'>
+      <div class='navbar left'>
+        <a class='navbar-logo' href='#signup'></a>
+      </div>
+      <div class='navbar right' id='navbar-right-web'>
+        <a class='nav-item' href="../home.html"> Home </a>
+        <a class='nav-item' href="../about.html"> About </a>
+        <a class='nav-item' href="../stigma.html"> Stigma </a>
+        <a class='nav-item' href="../culture.html"> MyCulture </a>
+        <a class='nav-item' href="../talk.html"> Talk </a>
+        <a class='nav-item special' href="../play.html"> Play </a>
+      </div>
+      <i id="navbar-open-menu" class="fas fa-bars fa-lg" onclick="NavOpen(event)"></i>
+      <div class='navbar right' id='navbar-right-mobile'>
+        <div id='close-navbar' class='nav-item' onclick="NavClose(event)">
+          <i id="close-button" class="fas fa-times fa-sm"></i>
+        </div>
+        <a class='nav-item' href="../home.html"> Home </a>
+        <a class='nav-item' href="../about.html"> About </a>
+        <a class='nav-item' href="../stigma.html"> Stigma </a>
+        <a class='nav-item' href="../culture.html"> MyCulture </a>
+        <a class='nav-item' href="../talk.html"> Talk </a>
+        <a class='nav-item special' href="../play.html"> Play </a>
+      </div>
+  </div>
+  <br></br><br></br>
+  <div id="slide9">
+    <div class="grid7">
+      <div>
+        <h2>Now my family is safe thanks to Filipino Bahaniyan spirit!</h2>
+        <button onclick="justine11()">Next</button>
+      </div>
+    </div>
+    <div class="grid9">
+      <div><img src="media/dad.png"></div>
+      <div><img src="media/justine.png"></div>
+      <div><img src="media/bro.png"></div>
+      <div><img src="media/mom.png"></div>
+    </div>
+  </div>
+
+</body>
+<footer>
+  <p>OurCulture © 2021</p>
+</footer>
+</html>

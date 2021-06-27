@@ -1,0 +1,96 @@
+/*CARDS*/
+#intro h3{
+  font-size:35px;
+  padding:3%;
+  padding-bottom: 0;
+  letter-spacing: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+  padding-top: 2.5%;
+  width:34%;
+  text-align: center;
+  font-family: sans-serif;
+}
+#games{
+  font-family: sans-serif;
+  margin-top:-1.25%;
+  height: 100vh;
+  min-height: 250px;
+  background-color: #f5dcb8;
+}
+#games h5{
+  margin:0px;
+  margin-left:-15%;
+  font-size:1.4em;
+  font-weight:700;
+}
+#games p{
+  font-size:12px;
+  margin-left:-6%;
+  margin-right:6%;
+  padding:0% 3%;
+}
+.grid4{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin:3%;
+  padding-top:3%;
+  padding-left:3.5%;
+}
+.card{
+  height:25em;
+  width:18em;
+  display:flex;
+  flex-direction:column;
+  position:relative;
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:16px;
+  overflow:hidden;
+}
+.card-img{
+  height:20em;
+  width:16em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.card-descript{
+  background-color: #FAFAFC;
+  height:5em;
+  width:18em;
+  position:absolute;
+  bottom:0em;
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align:center;
+}
+.card:hover .card-descript{
+  height:0em;
+  padding:0px 1em;
+}
+.card:hover .card-img{
+  height:25em;
+}
+.card:hover{
+  background-color:white;
+}
+.card:hover{
+  background-color:white;
+  cursor:pointer;
+}
+.a{
+  background-image: url(media/bayanihan.png);
+}
+.b{
+  background-image: url(media/mushroomtacos.jpg);
+}
+.c{
+  background-image: url(media/dialosmuertos.png);
+}
+.d{
+  background-image: url(media/ramen.jpg);
+}

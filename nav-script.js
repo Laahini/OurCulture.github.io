@@ -23,3 +23,6 @@ function openCulture(){
 function openPlay(){
   location.href="play.html"
 }
+function openJustine(){
+  location.href="justine2.html"
+}

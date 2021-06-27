@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>OurCulture</title>
+  <link rel="stylesheet" href="../navigation.css"/>
+  <link rel="stylesheet" href="../styles.css"/>
+  <link rel="stylesheet" href="../footer.css"/>
+  <link rel="icon" href="../favicon.ico">
+  <link rel="stylesheet" href="../play.css"/>
+  <script src="../nav-script.js"></script>
+  <script src="../sign.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d8d58f48fa.js" crossorigin="anonymous"></script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+</head>
+
+<body>
+  <div class='navbar-wrapper'>
+      <div class='navbar left'>
+        <a class='navbar-logo' href='#signup'></a>
+      </div>
+      <div class='navbar right' id='navbar-right-web'>
+        <a class='nav-item' href="../home.html"> Home </a>
+        <a class='nav-item' href="../about.html"> About </a>
+        <a class='nav-item' href="../stigma.html"> Stigma </a>
+        <a class='nav-item' href="../culture.html"> MyCulture </a>
+        <a class='nav-item' href="../talk.html"> Talk </a>
+        <a class='nav-item special' href="../play.html"> Play </a>
+      </div>
+      <i id="navbar-open-menu" class="fas fa-bars fa-lg" onclick="NavOpen(event)"></i>
+      <div class='navbar right' id='navbar-right-mobile'>
+        <div id='close-navbar' class='nav-item' onclick="NavClose(event)">
+          <i id="close-button" class="fas fa-times fa-sm"></i>
+        </div>
+        <a class='nav-item' href="../home.html"> Home </a>
+        <a class='nav-item' href="../about.html"> About </a>
+        <a class='nav-item' href="../stigma.html"> Stigma </a>
+        <a class='nav-item' href="../culture.html"> MyCulture </a>
+        <a class='nav-item' href="../talk.html"> Talk </a>
+        <a class='nav-item special' href="../play.html"> Play </a>
+      </div>
+  </div>
+  <br></br><br></br>
+  <div id="about">
+    <div class="grid3">
+      <div clsss="grid-item">
+        <img src="media/filipino.png" style="width:55%; height:325px; padding:5px; padding-top:25px; padding-left:70px;">
+      </div>
+      <div class="grid-item">
+        <h3>Bayanihan Spirit</h3>
+        <h5>Bayanihan spirit is a custom and sense of Filipino pride as a community and nation.
+          The word, Bayanihan, is derived from a Filipino word “bayan”, which means nation, town or community.
+          The term bayanihan itself literally means “being in a bayan”, which refers to the spirit of communal
+          unity, work and cooperation to achieve a particular goal.
+        </h5>
+      </div>
+    </div>
+  </div>
+  <div id="story">
+    <div class="grid3">
+      <div clsss="grid-item">
+        <img src="../media/bayanihan.png" style="width:45%; height:375px; padding:5px; padding-top:35px; padding-left:100px;">
+      </div>
+      <div class="grid-item">
+        <h3>Justine's Story</h3>
+        <h5>Justine and her family live in the Philippines and were one of the families drastically affected by Typhoon Ulysses.
+          The Filipino government attempted to fix the situation but their response was heavily delayed causing
+          local communities bayanihan to take underway. Their bayanihan spirit helped Justine and her family greatly. Her house
+          had been flooded and her family had no shelter and food but local bayanihan spirit helped them with
+          bakeries and stores donating supplies and food. If you would like to go through her story, click below.
+        </h5>
+        <button onclick="openJustine()">Start</button>
+      </div>
+    </div>
+  </div>
+  <div id="quiz1">
+    <!--WHAT DOES BAYANIHAN MEAN?-->
+  </div>
+  <div id="resources">
+    <div id="intro">
+      <h3>⭐️ OTHER RESOURCES ⭐️</h3>
+    </div>
+    <div class="grid4">
+
+      <div id="card">
+        <div class="card">
+          <a href="https://www.flipcause.com/hosted_widget/hostedWidgetHome/MjY1MjM="><div class="card-img a"></div></a>
+          <div class="card-descript">
+            <h5> SOMA </h5>
+            <p>Support San Francisco’s Filipino Heritage District</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="card">
+        <div class="card">
+          <a href="https://www.shopcambio.co/blogs/news/the-bayanihan-spirit-7-filipino-social-enterprises-changing-communities"><div class="card-img b"></div></a>
+          <div class="card-descript">
+            <h5>Filipino Businesses</h5>
+            <p>Support Filipino Businesses</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="card">
+        <div class="card">
+          <a href="https://www.facebook.com/ruralrisingph/"><div class="card-img c"></div></a>
+          <div class="card-descript">
+            <h5> Filipino Farmers </h5>
+            <p>Support Filipino Farmers</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="card">
+        <div class="card">
+          <a href="https://www.zenrooms.com/blog/post/philippine-culture/"><div class="card-img d"></div></a>
+          <div class="card-descript">
+            <h5> Learn </h5>
+            <p>Learn more about Filipino Culture and Values</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+<footer>
+  <p>OurCulture © 2021</p>
+</footer>
+</html>

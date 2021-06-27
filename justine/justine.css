@@ -1,0 +1,212 @@
+#slide1 h1{
+  font-size: 80px;
+  font-family: sans-serif;
+  padding-left:20%;
+  padding-bottom: 0%;
+  padding-top:1%;
+}
+#slide1 button{
+  font-size: 30px;
+  font-family: sans-serif;
+  padding: 5% 25%;
+  border:none;
+  background-color: #691800;
+  color:white;
+  font-weight: bolder;
+  margin-top:40%;
+}
+.grid2{
+  padding:0% 5%;
+  margin-top:-5%;
+}
+#slide2 h1{
+  font-size: 80px;
+  font-family: sans-serif;
+  padding-left:10%;
+  padding-bottom: 1%;
+  padding-top:1%;
+}
+#slide2 h2{
+  font-size: 50px;
+  font-family: sans-serif;
+}
+#slide2 button{
+  font-size: 30px;
+  font-family: sans-serif;
+  padding: 2% 25%;
+  border:none;
+  background-color: #691800;
+  color:white;
+  font-weight: bolder;
+  margin-top:10%;
+}
+#slide3 h1{
+  font-size: 80px;
+  font-family: sans-serif;
+  padding-left:10%;
+  padding-bottom: 0%;
+  padding-top:1%;
+}
+#slide3 button{
+  font-size: 30px;
+  font-family: sans-serif;
+  padding: 5% 25%;
+  border:none;
+  background-color: #691800;
+  color:white;
+  font-weight: bolder;
+  margin-top:40%;
+}
+.grid7{
+  display:grid;
+  grid-template-columns: auto auto auto;
+}
+.grid7 img{
+  width:150%;
+  margin-top:-12.5%;
+  margin-left:-11%;
+}
+#slide4 h1{
+  font-size: 80px;
+  font-family: sans-serif;
+  padding-left:10%;
+  padding-bottom: 0%;
+  padding-top:1%;
+}
+#slide4 h2{
+  font-size: 50px;
+  margin-top:20%;
+  font-family: sans-serif;
+}
+#slide4 button{
+  font-size: 30px;
+  font-family: sans-serif;
+  padding: 2% 25%;
+  border:none;
+  background-color: #691800;
+  color:white;
+  font-weight: bolder;
+  margin-top:10%;
+}
+#slide5 h1{
+  font-size: 80px;
+  font-family: sans-serif;
+  padding-left:10%;
+  padding-bottom: 0%;
+  padding-top:1%;
+}
+#slide5 h2{
+  font-size: 50px;
+  margin-top:20%;
+  font-family: sans-serif;
+}
+#slide5 button{
+  font-size: 30px;
+  font-family: sans-serif;
+  padding: 2% 25%;
+  border:none;
+  background-color: #691800;
+  color:white;
+  font-weight: bolder;
+  margin-top:3%;
+}
+#slide6 h2{
+  font-size: 50px;
+  font-family: sans-serif;
+  padding-left:20%;
+  padding-bottom: 0%;
+  padding-top:1%;
+}
+#slide6 button{
+  font-size: 30px;
+  font-family: sans-serif;
+  padding: 2% 10%;
+  border:none;
+  background-color: #691800;
+  color:white;
+  font-weight: bolder;
+  margin-top:3%;
+  margin-left:45%;
+  margin-bottom:5%;
+}
+.grid8{
+  display:grid;
+  grid-template-columns: 75% 25%;
+}
+.grid8 #river{
+  width:133%;
+  height:200px;
+}
+#slide7 h2{
+  font-size: 50px;
+  font-family: sans-serif;
+  padding-left:2%;
+  padding-right:2%;
+  padding-bottom: 0%;
+  padding-top:1%;
+}
+#slide7 button{
+  font-size: 30px;
+  font-family: sans-serif;
+  padding: 2% 25%;
+  border:none;
+  background-color: #691800;
+  color:white;
+  font-weight: bolder;
+  margin-top:3%;
+  margin-left:20%;
+  margin-bottom:5%;
+}
+#slide8 h2{
+  font-size: 50px;
+  font-family: sans-serif;
+  padding-left:7%;
+  padding-right:5%;
+  padding-bottom: 0%;
+  padding-top:1%;
+}
+#slide8 button{
+  font-size: 30px;
+  font-family: sans-serif;
+  padding: 2% 25%;
+  border:none;
+  background-color: #691800;
+  color:white;
+  font-weight: bolder;
+  margin-top:10%;
+  margin-left:53%;
+  margin-bottom:5%;
+}
+.grid9{
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  width:100%;
+  margin-left:-2%;
+}
+.grid9 div{
+  margin-left:-10%;
+}
+#slide9 h2{
+  font-size: 50px;
+  font-family: sans-serif;
+  padding-left:7%;
+  padding-right:5%;
+  padding-bottom: 0%;
+  padding-top:1%;
+}
+#slide9 button{
+  font-size: 30px;
+  font-family: sans-serif;
+  padding: 2% 15%;
+  border:none;
+  background-color: #691800;
+  color:white;
+  font-weight: bolder;
+  margin-top:1%;
+  margin-left:35%;
+  margin-bottom:1%;
+}
+#mycultureform{
+  margin-top:5%;
+  margin-bottom:5%;
+}
