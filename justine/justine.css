@@ -206,7 +206,18 @@
   margin-left:35%;
   margin-bottom:1%;
 }
-#mycultureform{
+#finish{
   margin-top:5%;
   margin-bottom:5%;
+}
+#finish button{
+  padding:5% 25%;
+  border:white;
+  margin:10%;
+  margin-top:5%;
+  margin-left:20%;
+  background:#691800;
+  color:#f4f4f4;
+  font-size: 50px;
+
 }

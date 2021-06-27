@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <title>OurCulture</title>
-  <link rel="stylesheet" href="navigation.css"/>
-  <link rel="stylesheet" href="styles.css"/>
-  <link rel="stylesheet" href="footer.css"/>
-  <link rel="icon" href="favicon.ico">
-  <script src="nav-script.js"></script>
-  <script src="sign.js"></script>
+  <link rel="stylesheet" href="../navigation.css"/>
+  <link rel="stylesheet" href="../styles.css"/>
+  <link rel="stylesheet" href="../footer.css"/>
+  <link rel="icon" href="../favicon.ico">
+  <link rel="stylesheet" href="play.css"/>
+  <script src="../nav-script.js"></script>
+  <script src="../sign.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/d8d58f48fa.js" crossorigin="anonymous"></script>
@@ -23,55 +24,102 @@
         <a class='navbar-logo' href='#signup'></a>
       </div>
       <div class='navbar right' id='navbar-right-web'>
-        <a class='nav-item' href="home.html"> Home </a>
-        <a class='nav-item' href="about.html"> About </a>
-        <a class='nav-item' href="stigma.html"> Stigma </a>
-        <a class='nav-item' href="culture.html"> MyCulture </a>
-        <a class='nav-item' href="talk.html"> Talk </a>
-        <a class='nav-item special' href="play.html"> Play </a>
+        <a class='nav-item' href="../home.html"> Home </a>
+        <a class='nav-item' href="../about.html"> About </a>
+        <a class='nav-item' href="../culture.html"> MyCulture </a>
+        <a class='nav-item' href="../talk.html"> Talk </a>
+        <a class='nav-item special' href="../play.html"> Play </a>
       </div>
       <i id="navbar-open-menu" class="fas fa-bars fa-lg" onclick="NavOpen(event)"></i>
       <div class='navbar right' id='navbar-right-mobile'>
         <div id='close-navbar' class='nav-item' onclick="NavClose(event)">
           <i id="close-button" class="fas fa-times fa-sm"></i>
         </div>
-        <a class='nav-item' href="home.html"> Home </a>
-        <a class='nav-item' href="about.html"> About </a>
-        <a class='nav-item' href="stigma.html"> Stigma </a>
-        <a class='nav-item' href="culture.html"> MyCulture </a>
-        <a class='nav-item' href="talk.html"> Talk </a>
-        <a class='nav-item special' href="play.html"> Play </a>
+        <a class='nav-item' href="../home.html"> Home </a>
+        <a class='nav-item' href="../about.html"> About </a>
+        <a class='nav-item' href="../culture.html"> MyCulture </a>
+        <a class='nav-item' href="../talk.html"> Talk </a>
+        <a class='nav-item special' href="../play.html"> Play </a>
       </div>
   </div>
   <br></br><br></br>
   <div id="about">
     <div class="grid3">
       <div clsss="grid-item">
-        <img src="media/laahini.png" style="width:50%; height:315px; padding:5px; padding-top:25px; padding-left:100px;">
+        <img src="media/intro.png" style="width:35%; height:325px; padding:5px; padding-top:25px; padding-left:130px;">
       </div>
       <div class="grid-item">
-        <h3>About OurCulture</h3>
-        <h5>OurCulture was created by Laahini A as a hackathon project and initiative in 2021.
-          Within the past few years, there has been an increase in discrimination and violence against peoples of different
-          religions, cultures, races and peoples. This includes the AAPI movement and BLM movement which had picked up
-          in order to combat racism against Asians and African Anericans. OurCulture supports such movements and spreads it
-          via cultural education.
+        <h3>Raksha Bandhan</h3>
+        <h5>Raksha Bandhan is a festival celebrated in India to honor the sister-brother relationship. This festival is usually celebrated
+          with sisters tying rakhis, bracelets, to their brothers to protect them from evil spirits
+          and the brothers giving their blessings and support, along with money.
+          Raksha means protection, whilst Bandhan is the verb to tie, henceforth the rakhis of the festival.
         </h5>
       </div>
     </div>
   </div>
-  <div id="mission">
+  <div id="story">
     <div class="grid3">
-      <div>
-        <h3>Our Mission</h3>
-        <h5>Our mission is to educate others about different cultures across the globe to prevent discrimination.
-          We also aim to create a community of individuals that support each other and are there for each other as support.
-        We hope that through our educational games, people of all ages will learn more about cultures and how to appreciate them.
-        Many who say harmful words about a group of peoples often do not know a lot about their culture/race/etc.
-        That's why we focus on educating people to repress any discrimination.</h5>
+      <div clsss="grid-item">
+        <img src="../media/raksha.jpg" style="width:45%; height:375px; padding:5px; padding-top:35px; padding-left:100px;">
       </div>
-      <div>
-        <img src="media/mission.png" style="width:75%; padding-left:10%; padding-top:3%;">
+      <div class="grid-item">
+        <h3>Sashi's Story</h3>
+        <h5>Sashi and her family live in India and celebrates Raksha Bandhan. Sashi and her family celebrate Raksha Bandhan in their own way and Sashi
+          would like to share the festivities with you. She and her brother love the festival because it is a day full of
+          sibling-love and fun. If you would like to go through her story, click below.
+        </h5>
+        <button onclick="openUpcoming()">Start</button>
+      </div>
+    </div>
+  </div>
+  <div id="quiz1">
+    <!--WHAT DOES BAYANIHAN MEAN?-->
+  </div>
+  <div id="resources">
+    <div id="intro">
+      <h3>⭐️ OTHER RESOURCES ⭐️</h3>
+    </div>
+    <div class="grid4">
+
+      <div id="card">
+        <div class="card">
+          <a href="https://indianculture.gov.in/"><div class="card-img a"></div></a>
+          <div class="card-descript">
+            <h5> Indian Culture </h5>
+            <p>Explore Indian Culture and Architecture</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="card">
+        <div class="card">
+          <a href="https://www.vogue.in/fashion/content/indian-brands-and-small-businesses-priyanka-chopra-is-supporting-right-now"><div class="card-img b"></div></a>
+          <div class="card-descript">
+            <h5>Indian Businesses</h5>
+            <p>Support Indian Businesses</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="card">
+        <div class="card">
+          <a href="https://www.saveindianfarmers.org/"><div class="card-img c"></div></a>
+          <div class="card-descript">
+            <h5> Indian Farmers </h5>
+            <p>Support Indian Farmers</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="card">
+        <div class="card">
+          <a href="https://www.indianfoodforever.com/"><div class="card-img d"></div></a>
+          <div class="card-descript">
+            <h5> Make Indian Food </h5>
+            <p>Explore Indian Cuisine</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

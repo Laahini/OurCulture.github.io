@@ -82,16 +82,16 @@
   cursor:pointer;
 }
 .a{
-  background-image: url(justine/media/soma.png);
+  background-image: url(media/soma.png);
 }
 .b{
-  background-image: url(justine/media/shop.png);
+  background-image: url(media/shop.png);
 }
 .c{
-  background-image: url(justine/media/farmer.png);
+  background-image: url(media/farmer.png);
 }
 .d{
-  background-image: url(media/culture.png);
+  background-image: url(../media/culture.png);
 }
 #story button{
   padding:1%;

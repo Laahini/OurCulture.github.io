@@ -25,3 +25,6 @@ function justine10(){
 function justine11(){
   location.href="justine11.html"
 }
+function finishJustine(){
+  location.href="../play.html"
+}

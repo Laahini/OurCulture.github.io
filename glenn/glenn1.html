@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <title>OurCulture</title>
-  <link rel="stylesheet" href="navigation.css"/>
-  <link rel="stylesheet" href="styles.css"/>
-  <link rel="stylesheet" href="footer.css"/>
-  <link rel="icon" href="favicon.ico">
-  <script src="nav-script.js"></script>
-  <script src="sign.js"></script>
+  <link rel="stylesheet" href="../navigation.css"/>
+  <link rel="stylesheet" href="../styles.css"/>
+  <link rel="stylesheet" href="../footer.css"/>
+  <link rel="icon" href="../favicon.ico">
+  <link rel="stylesheet" href="play.css"/>
+  <script src="../nav-script.js"></script>
+  <script src="../sign.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/d8d58f48fa.js" crossorigin="anonymous"></script>
@@ -23,55 +24,103 @@
         <a class='navbar-logo' href='#signup'></a>
       </div>
       <div class='navbar right' id='navbar-right-web'>
-        <a class='nav-item' href="home.html"> Home </a>
-        <a class='nav-item' href="about.html"> About </a>
-        <a class='nav-item' href="stigma.html"> Stigma </a>
-        <a class='nav-item' href="culture.html"> MyCulture </a>
-        <a class='nav-item' href="talk.html"> Talk </a>
-        <a class='nav-item special' href="play.html"> Play </a>
+        <a class='nav-item' href="../home.html"> Home </a>
+        <a class='nav-item' href="../about.html"> About </a>
+        <a class='nav-item' href="../culture.html"> MyCulture </a>
+        <a class='nav-item' href="../talk.html"> Talk </a>
+        <a class='nav-item special' href="../play.html"> Play </a>
       </div>
       <i id="navbar-open-menu" class="fas fa-bars fa-lg" onclick="NavOpen(event)"></i>
       <div class='navbar right' id='navbar-right-mobile'>
         <div id='close-navbar' class='nav-item' onclick="NavClose(event)">
           <i id="close-button" class="fas fa-times fa-sm"></i>
         </div>
-        <a class='nav-item' href="home.html"> Home </a>
-        <a class='nav-item' href="about.html"> About </a>
-        <a class='nav-item' href="stigma.html"> Stigma </a>
-        <a class='nav-item' href="culture.html"> MyCulture </a>
-        <a class='nav-item' href="talk.html"> Talk </a>
-        <a class='nav-item special' href="play.html"> Play </a>
+        <a class='nav-item' href="../home.html"> Home </a>
+        <a class='nav-item' href="../about.html"> About </a>
+        <a class='nav-item' href="../culture.html"> MyCulture </a>
+        <a class='nav-item' href="../talk.html"> Talk </a>
+        <a class='nav-item special' href="../play.html"> Play </a>
       </div>
   </div>
   <br></br><br></br>
   <div id="about">
     <div class="grid3">
       <div clsss="grid-item">
-        <img src="media/laahini.png" style="width:50%; height:315px; padding:5px; padding-top:25px; padding-left:100px;">
+        <img src="media/scottish.png" style="width:35%; height:325px; padding:5px; padding-top:25px; padding-left:150px;">
       </div>
       <div class="grid-item">
-        <h3>About OurCulture</h3>
-        <h5>OurCulture was created by Laahini A as a hackathon project and initiative in 2021.
-          Within the past few years, there has been an increase in discrimination and violence against peoples of different
-          religions, cultures, races and peoples. This includes the AAPI movement and BLM movement which had picked up
-          in order to combat racism against Asians and African Anericans. OurCulture supports such movements and spreads it
-          via cultural education.
+        <h3>Blackening of the Bride</h3>
+        <h5>Blackening of the Bride is not what it seems. It is a Scottish tradition where family members, friends and relatives splash
+          disgusting things like rotten eggs, tomatoes, and mud on a soon-to-be married couple as a blessing. If the couple is able to
+          survive the humiliation, it is seen as they will have a happy marriage. It's a very messy and fun tradition!
         </h5>
       </div>
     </div>
   </div>
-  <div id="mission">
+  <div id="story">
     <div class="grid3">
-      <div>
-        <h3>Our Mission</h3>
-        <h5>Our mission is to educate others about different cultures across the globe to prevent discrimination.
-          We also aim to create a community of individuals that support each other and are there for each other as support.
-        We hope that through our educational games, people of all ages will learn more about cultures and how to appreciate them.
-        Many who say harmful words about a group of peoples often do not know a lot about their culture/race/etc.
-        That's why we focus on educating people to repress any discrimination.</h5>
+      <div clsss="grid-item">
+        <img src="media/blackening.png" style="width:45%; height:375px; padding:5px; padding-top:35px; padding-left:100px;">
       </div>
-      <div>
-        <img src="media/mission.png" style="width:75%; padding-left:10%; padding-top:3%;">
+      <div class="grid-item">
+        <h3>Glenn's Story</h3>
+        <h5>Glenn is from Scotland is getting married soon to the love of her life.
+          She and her family members want to have a traditional wedding with the blackening of the bride (and groom). The couple's
+          friends are very excited to have a messy fight and wish them a happy married life.
+          Glenn and her fiance are very nervous and excited for the ocassion and would like to share the tradition with you.
+          If you would like to go through her story, click below.
+        </h5>
+        <button onclick="openUpcoming()">Start</button>
+      </div>
+    </div>
+  </div>
+  <div id="quiz1">
+    <!--WHAT DOES BAYANIHAN MEAN?-->
+  </div>
+  <div id="resources">
+    <div id="intro">
+      <h3>⭐️ OTHER RESOURCES ⭐️</h3>
+    </div>
+    <div class="grid4">
+
+      <div id="card">
+        <div class="card">
+          <a href="https://www.scotland.org/about-scotland/food-and-drink/scottish-recipes"><div class="card-img a"></div></a>
+          <div class="card-descript">
+            <h5> Scottish food </h5>
+            <p>Explore some traditional Scottish Food</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="card">
+        <div class="card">
+          <a href="https://www.hoodmagazine.co.uk/blog/these-scottish-small-businesses-are-still-running-throughout-the-crisis-heres-how-you-can-help-them"><div class="card-img b"></div></a>
+          <div class="card-descript">
+            <h5>Scottish Businesses</h5>
+            <p>Support Scottish Businesses</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="card">
+        <div class="card">
+          <a href="https://www.scottishtours.co.uk/blog/5-famous-landmarks-in-scotland/"><div class="card-img c"></div></a>
+          <div class="card-descript">
+            <h5> Scottish Geography </h5>
+            <p>Explore Scottish Landmarks</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="card">
+        <div class="card">
+          <a href="https://www.scotland.org/about-scotland/culture"><div class="card-img d"></div></a>
+          <div class="card-descript">
+            <h5> Learn </h5>
+            <p>Learn more about Scottish Culture and Values</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

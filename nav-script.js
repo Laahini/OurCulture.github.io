@@ -26,3 +26,6 @@ function openPlay(){
 function openJustine(){
   location.href="justine2.html"
 }
+function openUpcoming(){
+  location.href="../upcoming.html"
+}
